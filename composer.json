@@ -1,0 +1,21 @@
+{
+  "name": "siscrad/cron",
+  "description": "My first composer package",
+  "type": "package",
+  "authors": [
+    {
+      "name": "Siscrad",
+      "email": "heikogriga2@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Cron": "src/"
+    }
+  },
+  "version": "1.0.0",
+  "minimum-stability": "dev"
+}
