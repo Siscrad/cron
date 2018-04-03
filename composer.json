@@ -1,0 +1,19 @@
+{
+    "name": "siscrad/Scheduler",
+    "description": "My first composer package",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Siscrad",
+            "email": "heikogriga2@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cron": "src/"
+        }
+    }
+}
