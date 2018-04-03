@@ -60,13 +60,14 @@ class Log
      * Log constructor.
      *
      * @param string  $file
-     * @param \Database $connection
+     * @param \mysqli $connection
      */
-    public function  __construct(string $file, \Database $connection)
+    public function  __construct(string $file, \mysqli $connection)
     {
         $this->file = $file;
         $this->connection = $connection;
     }
+    
 
     public function start(): void
     {
