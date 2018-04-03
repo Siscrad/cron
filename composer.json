@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Cron": "src/"
+      "Cron\\": "src/"
     }
   },
   "version": "1.0.0",
