@@ -60,9 +60,9 @@ class Log
      * Log constructor.
      *
      * @param string  $file
-     * @param Database $connection
+     * @param \Database $connection
      */
-    public function  __construct(string $file, Database $connection)
+    public function  __construct(string $file, \Database $connection)
     {
         $this->file = $file;
         $this->connection = $connection;
