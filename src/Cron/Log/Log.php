@@ -67,7 +67,6 @@ class Log
         $this->file = $file;
         $this->connection = $connection;
     }
-    
 
     public function start(): void
     {
