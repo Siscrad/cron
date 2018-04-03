@@ -89,6 +89,26 @@ class Php extends Job
     }
     
     /**
+     * @return string
+     */
+    public function getRootPath(): string
+    {
+        return $this->rootPath;
+    }
+    
+    /**
+     * @param string $rootPath
+     *
+     * @return Php
+     */
+    public function setRootPath(string $rootPath): self
+    {
+        $this->rootPath = $rootPath;
+        
+        return $this;
+    }
+    
+    /**
      * @return Job
      */
     public function run(): Job
