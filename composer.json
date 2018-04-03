@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Cron": "src/"
+      "Cron": "vendor/siscrad/cron/src/"
     }
   },
   "version": "1.0.0",
