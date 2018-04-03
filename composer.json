@@ -9,7 +9,8 @@
     }
   ],
   "require": {
-    "php": ">=7.1.0"
+    "php": ">=7.1.0",
+    "siscrad/cron": "dev-master"
   },
   "autoload": {
     "psr-0": {
